@@ -1,6 +1,11 @@
 {
   "extends": [
-    "development"
+    "development",
+    "next/core-web-vitals",
+    "next",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier"
   ],
   "hints": {
     "typescript-config/is-valid": "off"
